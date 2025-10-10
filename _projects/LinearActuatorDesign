@@ -10,8 +10,8 @@ Stroke length: 0.6m (can only use 0.5m due to given design space)
 
 Idea: Build a mechanism that translates motion of actuator to upwards motion of bar)
 
-sketch 1: fa25-portfolio-ao458-ahcr/Statics HW 4.jpeg
-sketch 2: fa25-portfolio-ao458-ahcr/Statics HW 5.jpeg
+![alt text](https://github.com/Cornell-MAE-UG/fa25-portfolio-ao458-ahcr/blob/ao458-ahcr-patch-1/Statics%20HW%204.jpeg)
+![alt text](https://github.com/Cornell-MAE-UG/fa25-portfolio-ao458-ahcr/blob/ao458-ahcr-patch-1/Statics%20HW%205.jpeg)
 
 Calculations:
   Assumptions: F_a = force from actuator
