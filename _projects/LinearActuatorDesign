@@ -10,3 +10,12 @@ Stroke length: 0.6m (can only use 0.5m due to given design space)
 
 Idea: Build a mechanism that translates motion of actuator to upwards motion of bar)
 
+fa25-portfolio-ao458-ahcr/Statics HW 4.jpeg
+
+fa25-portfolio-ao458-ahcr/Statics HW 5.jpeg
+
+Calculations:
+  Assumptions: F_a = force from actuator
+               payload is 15 cm away from linear actuator line of action
+               weight of payload is less than force from actuator (max weight of payload = F_a/9.81 = 203 kg)
+  Torque: F_a * (0.15m) = 2000 * 0.15 = 300Nm 
