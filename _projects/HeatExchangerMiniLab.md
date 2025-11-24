@@ -7,7 +7,8 @@ For this mini-lab, we examined a small laboratory heat exchanger and compared it
 ---
 
 ## 2. Photos & Schematics
-*insert photos here*
+![Lab Setup](images/IMG_6926.JPG)
+![During Activity](images/IMG_6925.JPG)
 
 Example:
 
@@ -33,22 +34,21 @@ Real-world examples of heat exchangers:
 
 ## 5. Mass, Energy, and Entropy Balance Equations
 Below are the standard balance equations used for this type of steady-flow device.  
-(You can fill these in with your own versions if needed.)
 
 ### Mass Balance
-\[
-\dot m_{in} = \dot m_{out}
-\]
+$$
+\dot{m}_{in} - \dot{m}_{out} = 0
+$$
 
 ### Energy Balance (steady, neglecting KE/PE)
-\[
-\dot Q = \dot m c_p (T_{out} - T_{in})
-\]
+$$
+\dot{Q}_{in} - \dot{W}_{out} + \dot{m}_{in} h_{in} - \dot{m}_{out} h_{out} = 0
+$$
 
 ### Entropy Balance
-\[
-\dot S_{gen} = \dot m c_p \ln\left(\frac{T_{out}}{T_{in}}\right)
-\]
+$$
+\dot{S}_{gen} + \dot{m}_{in} s_{in} - \dot{m}_{out} s_{out} = 0
+$$
 
 ---
 
