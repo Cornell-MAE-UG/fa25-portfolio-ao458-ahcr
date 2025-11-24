@@ -2,20 +2,22 @@
 ### Parallel Flow vs Counterflow
 
 ## 1. Introduction
-For this mini-lab, we examined a small laboratory heat exchanger and compared its performance in **parallel flow** and **counterflow** configurations. The working fluid in all cases was **water** at different inlet temperatures.
+For this mini-lab, we examined a small laboratory heat exchanger and compared its performance in parallel flow and counterflow configurations. The working fluid in all cases was water at different inlet temperatures.
 
 ---
 
 ## 2. Photos & Schematics
-![Lab Setup](../assets/images/IMG_6926.JPG)
-![During Activity](../assets/images/IMG_6925.JPG)
 
-Example:
+Lab Setup
+![Lab Setup](../assets/images/IMG_6926.JPG)
+
+During Lab Activity
+![During Activity](../assets/images/IMG_6925.JPG)
 
 A heat exchanger is a device that transfers heat between two fluid streams without mixing them. In our setup, the two streams were hot water and cold water flowing through two separate channels.
 
-- **Parallel flow:** hot and cold fluids enter from the same side and flow together in the same direction.
-- **Counterflow:** fluids enter from opposite sides and flow in opposite directions.  
+- Parallel flow: hot and cold fluids enter from the same side and flow together in the same direction.
+- Counterflow: fluids enter from opposite sides and flow in opposite directions.  
   Counterflow typically results in greater temperature changes and better overall performance.
 
 Real-world examples of heat exchangers:
@@ -28,7 +30,10 @@ Real-world examples of heat exchangers:
 ---
 
 ## 4. System Diagram
+Counter Flow Diagram
 ![Counter Flow Diagram](../assets/images/IMG_0152.jpg)
+
+Parallel Flow Diagram
 ![Parallel Flow Diagram](../assets/images/IMG_0153.jpg)
 
 ---
@@ -56,10 +61,10 @@ $$
 ## 6. Experimental Data
 
 ### **Counterflow**
-- Cold inlet: **7.0°C**  
-- Hot inlet: **42.5°C**  
-- Cold outlet: **24.4°C**  
-- Hot outlet: **23.7°C**
+- Cold inlet: 7.0°C  
+- Hot inlet: 42.5°C  
+- Cold outlet: 24.4°C  
+- Hot outlet: 23.7°C
 
 Heat exchanger wall temperatures:  
 - Initially 307.5 K at hot inlet side  
@@ -70,10 +75,10 @@ Heat exchanger wall temperatures:
 ---
 
 ### **Parallel Flow**
-- Cold inlet: **5.2°C**  
-- Hot inlet: **35.5°C**  
-- Cold outlet: **16.4°C**  
-- Hot outlet: **19.8°C**
+- Cold inlet: 5.2°C  
+- Hot inlet: 35.5°C  
+- Cold outlet: 16.4°C  
+- Hot outlet: 19.8°C
 
 Heat exchanger device temperatures:  
 - Hot fluid entrance initially: 297.5 K → 296.8 K after  
@@ -85,7 +90,7 @@ Heat exchanger device temperatures:
 
 ### **How design/operating changes affect performance**
 We compared parallel flow vs counterflow.  
-Counterflow produced a **larger temperature change** and brought both streams closer to one another’s inlet temperature, demonstrating why counterflow is preferred in most real-world systems.
+Counterflow produced a larger temperature change and brought both streams closer to one another’s inlet temperature, demonstrating why counterflow is preferred in most real-world systems.
 
 ### **Is the heat exchanger adiabatic?**
 Probably not — the measured wall temperatures show noticeable changes, indicating heat loss to the surrounding environment.  
