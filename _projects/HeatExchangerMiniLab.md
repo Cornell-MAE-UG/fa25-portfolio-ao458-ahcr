@@ -7,8 +7,8 @@ For this mini-lab, we examined a small laboratory heat exchanger and compared it
 ---
 
 ## 2. Photos & Schematics
-![Lab Setup](images/IMG_6926.JPG)
-![During Activity](images/IMG_6925.JPG)
+![Lab Setup](assets/images/IMG_6926.JPG)
+![During Activity](assets/images/IMG_6925.JPG)
 
 Example:
 
