@@ -7,8 +7,8 @@ For this mini-lab, we examined a small laboratory heat exchanger and compared it
 ---
 
 ## 2. Photos & Schematics
-![Lab Setup](assets/images/IMG_6926.JPG)
-![During Activity](assets/images/IMG_6925.JPG)
+![Lab Setup](../assets/images/IMG_6926.JPG)
+![During Activity](../assets/images/IMG_6925.JPG)
 
 Example:
 
@@ -28,7 +28,8 @@ Real-world examples of heat exchangers:
 ---
 
 ## 4. System Diagram
-*insert diagram here*
+![Counter Flow Diagram](../assets/images/IMG_0152.jpg)
+![Parallel Flow Diagram](../assets/images/IMG_0153.jpg)
 
 ---
 
