@@ -1,10 +1,3 @@
----
-layout: project
-title: test
-description: idk
-technologies: [some tech]
-image: /assets/images/radio-machine-cad.jpg
----
 
 # Heat Exchanger Mini Lab
 ### Parallel Flow vs Counterflow

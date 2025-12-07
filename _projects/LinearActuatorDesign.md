@@ -1,10 +1,4 @@
----
-layout: project
-title: test
-description: idk
-technologies: [some tech]
-image: /assets/images/radio-machine-cad.jpg
----
+
 
 Project: Given a 2D design space of 150cm long and 50cm tall, a rigid bar of fixed length (your choice), 
 3 pin supports of which two need to be mounted on the ground and a linear actuator (pick from online catalog, 
