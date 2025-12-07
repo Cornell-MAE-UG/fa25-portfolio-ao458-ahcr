@@ -1,4 +1,10 @@
-
+---
+layout: project
+title: Spaceship Design
+description: Just a spaceship that I designed
+technologies: [SolidWorks, Machining]
+image: /assets/images/spaceship-design.jpg
+---
 
 Project: Given a 2D design space of 150cm long and 50cm tall, a rigid bar of fixed length (your choice), 
 3 pin supports of which two need to be mounted on the ground and a linear actuator (pick from online catalog, 

@@ -1,3 +1,10 @@
+---
+layout: project
+title: Spaceship Design
+description: Just a spaceship that I designed
+technologies: [SolidWorks, Machining]
+image: /assets/images/spaceship-design.jpg
+---
 
 # Heat Exchanger Mini Lab
 ### Parallel Flow vs Counterflow
