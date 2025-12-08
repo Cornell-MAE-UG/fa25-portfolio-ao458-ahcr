@@ -14,10 +14,10 @@ For this mini-lab, we examined a small laboratory heat exchanger and compared it
 Photos & Schematics
 
 Lab Setup
-![Lab Setup]({{ '/assets/images/IMG_6926.JPG' | relative_url }}){: width="200" }
+src="{{ '/assets/images/IMG_6926.JPG' | relative_url }}" alt="Lab setup">
 
 During Lab Activity
-![During Activity]({{ "/assets/images/IMG_6925.JPG" | relative_url }}){: width="200" }
+src="{{ '/assets/images/IMG_6925.JPG' | relative_url }}" alt="During activity">
 
 A heat exchanger is a device that transfers heat between two fluid streams without mixing them. In our setup, the two streams were hot water and cold water flowing through two separate channels.
 
@@ -33,10 +33,10 @@ Real-world examples of heat exchangers:
 
 System Diagram
 Counter Flow Diagram
-![Counter Flow Diagram]({{ "/assets/images/IMG_0152.jpg" | relative_url }}){: width="300" }
+src="{{ '/assets/images/IMG_0152.jpg' | relative_url }}" alt="Counterflow diagram">
 
 Parallel Flow Diagram
-![Parallel Flow Diagram]({{ "/assets/images/IMG_0153.jpg" | relative_url }}){: width="300" }
+src="{{ '/assets/images/IMG_0153.jpg' | relative_url }}" alt="Parallel flow diagram">
 
 Mass, Energy, and Entropy Balance Equations
 Below are the standard balance equations used for this type of steady-flow device.  
