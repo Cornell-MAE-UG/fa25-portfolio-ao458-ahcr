@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
+title: Linear Actuator Design
+description: Statics and Mechanics of Solids
 technologies: [Autodesk Fusion]
 image: /assets/images/radio-machine-cad.jpg
 ---
