@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Heat Exchanger Mini Labgit
-description: Just a spaceship that I designed
+title: Heat Exchanger Mini Lab
+description: Thermodynamics
 technologies: [SolidWorks, Machining]
-image: /assets/images/spaceship-design.jpg
+image: /assets/images/IMG_6926.JPG
 ---
 
 # Heat Exchanger Mini Lab
