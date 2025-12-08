@@ -14,10 +14,10 @@ For this mini-lab, we examined a small laboratory heat exchanger and compared it
 Photos & Schematics
 
 Lab Setup
-![Lab Setup]({{ "/assets/images/IMG_6926.JPG" | relative_url }})
+![Lab Setup]({{ '/assets/images/IMG_6926.JPG' | relative_url }}){: width="300" }
 
 During Lab Activity
-![During Activity]({{ "/assets/images/IMG_6925.JPG" | relative_url }})
+![During Activity]({{ "/assets/images/IMG_6925.JPG" | relative_url }}){: width="300" }
 
 A heat exchanger is a device that transfers heat between two fluid streams without mixing them. In our setup, the two streams were hot water and cold water flowing through two separate channels.
 
@@ -33,10 +33,10 @@ Real-world examples of heat exchangers:
 
 System Diagram
 Counter Flow Diagram
-![Counter Flow Diagram]({{ "/assets/images/IMG_0152.jpg" | relative_url }})
+![Counter Flow Diagram]({{ "/assets/images/IMG_0152.jpg" | relative_url }}){: width="300" }
 
 Parallel Flow Diagram
-![Parallel Flow Diagram]({{ "/assets/images/IMG_0153.jpg" | relative_url }})
+![Parallel Flow Diagram]({{ "/assets/images/IMG_0153.jpg" | relative_url }}){: width="300" }
 
 Mass, Energy, and Entropy Balance Equations
 Below are the standard balance equations used for this type of steady-flow device.  
@@ -47,17 +47,20 @@ $$
 \dot{m}_{in} - \dot{m}_{out} = 0
 $$
 
+
 Energy Balance (steady, neglecting KE/PE)
 
 $$
 \dot{Q}_{in} - \dot{W}_{out} + \dot{m}_{in} h_{in} - \dot{m}_{out} h_{out} = 0
 $$
 
+
 Entropy Balance
 
 $$
 \dot{S}_{gen} + \dot{m}_{in} s_{in} - \dot{m}_{out} s_{out} = 0
 $$
+
 
 Experimental Data
 Counterflow
