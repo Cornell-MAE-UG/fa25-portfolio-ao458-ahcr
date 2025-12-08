@@ -6,25 +6,23 @@ technologies: [MATLAB, python]
 image: /assets/images/function-graph.png
 ---
 
-
 Heat Exchanger Mini Lab: Parallel Flow vs Counterflow
 
-1. Introduction
+Introduction
 For this mini-lab, we examined a small laboratory heat exchanger and compared its performance in parallel flow and counterflow configurations. The working fluid in all cases was water at different inlet temperatures.
 
-2. Photos & Schematics
+Photos & Schematics
 
 Lab Setup
-![Lab Setup](../assets/images/IMG_6926.JPG)
+![Lab Setup]({{ "/assets/images/IMG_6926.JPG" | relative_url }})
 
 During Lab Activity
-![During Activity](../assets/images/IMG_6925.JPG)
+![During Activity]({{ "/assets/images/IMG_6925.JPG" | relative_url }})
 
 A heat exchanger is a device that transfers heat between two fluid streams without mixing them. In our setup, the two streams were hot water and cold water flowing through two separate channels.
 
 - Parallel flow: hot and cold fluids enter from the same side and flow together in the same direction.
-- Counterflow: fluids enter from opposite sides and flow in opposite directions.  
-  Counterflow typically results in greater temperature changes and better overall performance.
+- Counterflow: fluids enter from opposite sides and flow in opposite directions. Counterflow typically results in greater temperature changes and better overall performance.
 
 Real-world examples of heat exchangers:
 - car radiators  
@@ -33,32 +31,35 @@ Real-world examples of heat exchangers:
 - refrigerator/AC evaporators  
 - industrial process cooling
 
-4. System Diagram
+System Diagram
 Counter Flow Diagram
-![Counter Flow Diagram](../assets/images/IMG_0152.jpg)
+![Counter Flow Diagram]({{ "/assets/images/IMG_0152.jpg" | relative_url }})
 
 Parallel Flow Diagram
-![Parallel Flow Diagram](../assets/images/IMG_0153.jpg)
+![Parallel Flow Diagram]({{ "/assets/images/IMG_0153.jpg" | relative_url }})
 
-5. Mass, Energy, and Entropy Balance Equations
+Mass, Energy, and Entropy Balance Equations
 Below are the standard balance equations used for this type of steady-flow device.  
 
 Mass Balance
+
 $$
 \dot{m}_{in} - \dot{m}_{out} = 0
 $$
 
 Energy Balance (steady, neglecting KE/PE)
+
 $$
 \dot{Q}_{in} - \dot{W}_{out} + \dot{m}_{in} h_{in} - \dot{m}_{out} h_{out} = 0
 $$
 
 Entropy Balance
+
 $$
 \dot{S}_{gen} + \dot{m}_{in} s_{in} - \dot{m}_{out} s_{out} = 0
 $$
 
-6. Experimental Data
+Experimental Data
 Counterflow
 - Cold inlet: 7.0°C  
 - Hot inlet: 42.5°C  
@@ -81,7 +82,7 @@ Heat exchanger device temperatures:
 - Hot fluid entrance initially: 297.5 K → 296.8 K after  
 - Cold fluid entrance initially: 299.7 K → 292.9 K after
 
-7. Discussion
+Discussion
 
 How design/operating changes affect performance
 We compared parallel flow vs counterflow.  
@@ -97,7 +98,7 @@ The system likely approached steady state but not perfectly. Temperature drift o
 Kinetic Energy Effects
 Kinetic energy changes are negligible for small lab flow rates and are usually ignored in these analyses.
 
-8. Conclusion
+Conclusion
 This mini-lab demonstrated the performance differences between parallel and counterflow heat exchanger configurations.  
 Counterflow provided better heat transfer effectiveness, while parallel flow produced smaller temperature rises and drops.  
 The real-world behavior was influenced by non-adiabatic losses and incomplete steady-state operation.
