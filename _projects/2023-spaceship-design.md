@@ -59,7 +59,7 @@ Solving post-harvest SLF contamination would protect the entire wine supply chai
 2. What does a typical processing layout look like, and where would sanitation, space, or workflow constraints limit adding equipment?  
 *Decision affected:* Defines integration limits so the design fits operational and regulatory realities, and supports solutions that can scale across facilities without major infrastructure changes.
 3. Which forms of product damage are least acceptable (juice release, skin breakage, berry loss, or cluster disruption)? Please rank if possible.  
-*Decision affected*:* Sets force and contact limits, guiding mechanism selection and tuning so the design minimizes losses within acceptable damage tolerances.
+*Decision affected:* Sets force and contact limits, guiding mechanism selection and tuning so the design minimizes losses within acceptable damage tolerances.
 
 **References**  
 * https://news.cornell.edu/stories/2025/01/spotted-lanternflies-could-cost-nys-grape-industry-millions 
