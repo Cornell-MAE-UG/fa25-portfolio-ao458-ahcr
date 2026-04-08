@@ -1,12 +1,10 @@
 ---
 layout: project
-title: 2250 Client Pitch
+title: 2250 SLF Removal
 description: Post-Harvest SLF Removal
 technologies: 
 image: 
 ---
-
-# Post-Harvest SLF Removal Portfolio
 
 ## Table of Contents
 - [Client Pitch](#client-pitch)
