@@ -1,7 +1,7 @@
 ---
 layout: project
-title: 2250 SLF Removal
-description: Post-Harvest SLF Removal
+title: 2250 Portfolio
+description: SLF Removal
 technologies: 
 image: 
 ---
