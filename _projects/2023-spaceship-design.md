@@ -6,7 +6,18 @@ technologies:
 image: 
 ---
 
-**Post-Processing SLF Removal**
+# Post-Harvest SLF Removal Portfolio
+
+## Table of Contents
+- [Client Pitch](#client-pitch)
+- [Functional Prototype](#functional-prototype)
+
+---
+
+## Client Pitch
+<a name="client-pitch"></a>
+
+**During Harvest SLF Removal**
 
 **Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape
 
@@ -64,4 +75,75 @@ Solving post-harvest SLF contamination would protect the entire wine supply chai
 **References**  
 * https://news.cornell.edu/stories/2025/01/spotted-lanternflies-could-cost-nys-grape-industry-millions 
 
+---
 
+## Functional Prototype
+<a name="functional-prototype"></a>
+
+**Design Documentation**
+
+Our functional prototype is a filtering brush mechanism designed to remove Spotted Lanternflies (SLF) from grapes during harvest processing. Grapes travel along a conveyor belt and pass beneath a rotating brush mounted above the product stream. The brush lightly contacts the grapes, applying enough force to dislodge SLF while minimizing grape damage and product loss.
+
+**Key Components**
+* Laser-cut acrylic mounting plates, bases, and supports (in-house fabrication)
+* 1" diameter oak shaft (cut to 12 in.)
+* Spiral-mounted strip brushes (1", 2", and 3" bristle lengths tested)
+* Steel ball bearings (for rotational support)
+* Hex bolt interface for drill-driven rotation
+
+**Assembly Overview**
+* Mount structure assembled using acrylic supports and adhesive  
+* Oak shaft fitted with evenly spaced brush supports  
+* Bearings press-fit onto shaft ends for smooth rotation  
+* Strip brushes threaded in a spiral pattern along the shaft  
+* System driven using a drill coupled to a hex bolt  
+
+**Design Tests**
+
+We evaluated our prototype through controlled experiments focused on brush performance and system stability.
+
+**Test 1: Brush Length Optimization**
+
+* **1” (stiffest):**  
+  High SLF removal force, but caused significant grape displacement and potential damage.  
+
+* **2” (moderate):**  
+  Improved balance, but still caused occasional grape movement, especially at higher speeds.  
+
+* **3” (most flexible):**  
+  Consistently removed SLF while maintaining stable grape flow. Minimal displacement and best overall performance.
+
+**Conclusion:**  
+The 3” brush provided the best performance and will be used in future iterations.
+
+**Test 2: Rotation Speed and Direction**
+
+* **Clockwise rotation:** Effective SLF removal (up to 6/8 removed at higher speeds)  
+* **Counterclockwise rotation:** Ineffective (0/8 removed consistently)  
+* **Higher speeds (~2000 RPM):** Increased removal but caused mount instability (>5 mm movement)
+
+**Conclusion:**  
+* Clockwise rotation significantly improves SLF removal  
+* Current mounting system lacks stability at high speeds  
+* Future designs must improve structural rigidity and shaft alignment  
+
+**Success Criteria**
+
+“A machine that can be attached to current harvester conveyor belts to remove SLF from grapes during post-processing,” and:
+* **≤ 5% grape damage**  
+* **≥ 90% SLF removal in a single pass**  
+* **Stable operation up to 2500 RPM (≤ 5 mm movement)**  
+* **Adaptable brush geometry (≥ 90% debris clearance)**  
+* **Operates at conveyor speeds of ~1 m/s**  
+
+**How We Measure Success**
+* Count SLF before and after passing through the prototype  
+* Measure grape damage rate after processing  
+* Track rotational speed (RPM) and mount displacement  
+* Evaluate performance using a mock conveyor system  
+
+**Key Takeaways**
+* Brush flexibility is critical—longer bristles improve performance and reduce damage  
+* Rotation direction significantly impacts SLF removal effectiveness  
+* Structural stability is the main limitation of the current prototype  
+* The concept is feasible and promising, with clear paths for refinement  
