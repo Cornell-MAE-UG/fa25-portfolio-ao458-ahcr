@@ -143,15 +143,15 @@ The 3” brush provided the best performance and will be used in future iteratio
 ## Client Report
 <a name="client-report"></a>
 
-**Context and Problem Statement**  
+**Context and Problem Statement**<br>  
 
 During short, high-volume harvest periods, facilities must remove spotted lantern flies (SLFs) quickly, yet current methods continue to miss insects, risking contamination and regulatory noncompliance, which can lead to financial and operational strain. There are three opportunities to remove SLF: before, during, and after harvest processing. Our approach is implemented during the harvesting stage, when there is minimal grape juice on the conveyor. Operating at this point minimizes product loss, improves removal efficiency, and maintains compatibility with high-throughput processing conditions. The conveyor is also a single point where all harvested grapes pass though. By looking for solutions to apply at this stage, we reduce the number of devices needed to effectively remove SLF. 
 
-**Final Prototype and Application**  
+**Final Prototype and Application**<br>  
 
 Our concept is a filtering brush mechanism designed to remove SLF from grapes during the harvesting processing. Grapes will travel along the harvesting machine’s conveyor belt and pass through a rotating brush placed above. The brush will lightly contact the product stream, applying enough force to knock off the SLF from the grapes. Our prototype is designed to integrate directly with the conveyor rails via mounting brackets specifically fitted to the conveyor dimensions. It can be installed as an inline module within the harvesting process, operating continuously as grapes are transported through the processing line.
 
-**Success Criteria**  
+**Success Criteria**<br>  
 
 Our design was a rotary brush tool that can be attached to current harvester conveyor belts to remove SLF from grapes just harvested from vines. The criteria we sought out was to ensure:
 * The brushes should not damage, crush, or visibly harm more than 5% of grapes. Our clients have emphasized product loss as a major problem in current SLF removal systems.
@@ -159,15 +159,15 @@ Our design was a rotary brush tool that can be attached to current harvester con
 * The system should be able to withstand realistic operation without shifting more than 5mm. Greater stability is a medium priority.
 * The system should be able to process grapes on a conveyor belt at a speed of 1 m/s. Higher speeds are a medium priority.
 
-**Testing and Results**  
+**Testing and Results**<br>  
 
 Our initial prototype consisted of food grade brushes rotating on a wooden dowel that is driven by a standard hand held drill. It is mounted above a conveyor system to simulate harvesting conditions. The main mechanical risks involve brush motion and structural stability. The following tests allowed us to identify three factors which strongly impacted performance: brush length, rotation speed, and rotation direction. During testing we made a mock conveyor belt and modeled grapes out of clay, each of the approximate weight of a grape (5-7g). We modeled SLF with loops of masking tape, approximating their weight and clinging tendency. Using the cordless drill to drive the brushes, we measured how many SLF were knocked off and how much our mounting moved. By changing the direction of the drill, we also tested whether a clockwise or counterclockwise brush rotation was more effective for SLF removal. Our testing highlighted several areas in need of improvement. For drill speeds >500 RPM, our prototype started shifting, indicating a need for a sturdier, more robust mounting design. As we deduced that 2000 RPM in the clockwise direction, as that least impacted the flow of the grapes, removed the most SLF, we needed sturdier mounts on future prototypes. We measured the grape flow and grape health more qualitatively, relative to each other. Unfortunately we could not simulate enough tests to come up with concrete numbers, however the testing was still fruitful. The 3” brush was identified as the most effective choice, as shown in Table 2, which should also be integrated in future configurations.
 
-**Final Prototype**  
+**Final Prototype**<br>  
 
 The initial prototype established baseline estimates for dimensions, operating speed, and overall feasibility. The final prototype builds on this by closely replicating a real harvester conveyor system with an integrated rotary brush mechanism. A mock conveyor section was constructed with dimensions similar to an actual harvesting belt, using food-grade materials for the belt and brushes, along with 3D-printed components. The mounts are machined from aluminum, enabling precise placement within a 0.010-inch tolerance and ensuring structural stability. The system is driven by a 3000 RPM motor paired with a speed controller, allowing fine adjustment of operating speed to meet specific testing requirements. Reevaluation of mounting stability showed that for 2000 RPM operating speeds, the mounting did not shift. Additionally, the final prototype incorporates a shaft with an internal helical channel for mounting the brushes. This design increases stability by maximizing the brush mounting surface area. In contrast, the first prototype used four externally attached rod supports (shown in Figure 2), whereas the final design provides a continuous mounting interface.
 
-**Conclusion and Reccomendation**  
+**Conclusion and Reccomendation**<br>  
 
 We researched the already existing harvesters and found the OXBO 6030 was already equipped with PREMIUMDESTEM and PREMIUMSORT technology that included a majority of what our product was trying to achieve. Therefore, as our results prove that the brush mechanisms are indeed brushing off SLF with increased success and efficiency, further improvements can be made to the already established technology. Future iterations should explore incorporating multiple brush stages with varying stiffness or rotational speeds to improve removal efficiency while minimizing damage to the grapes. Introducing a staged approach would allow for more controlled, gradual removal of SLF across the process. A practical implementation should include an integrated cleaning mechanism to prevent debris buildup and brush clogging, ensuring consistent performance and reducing maintenance requirements over time. Software-based control can also improve performance significantly; for example, a closed-loop feedback system, using vision-based sensors, could enable real-time adjustment brush speeds/torque based on SLF presence. 
 
